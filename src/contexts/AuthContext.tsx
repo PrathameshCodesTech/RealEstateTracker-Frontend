@@ -9,7 +9,7 @@ interface AuthContextType {
 const AuthContext = createContext<AuthContextType | null>(null);
 
 const CREDENTIALS = {
-  username: "Micl@Admin",
+  username: "Vibe@Admin",
   password: "12345",
 };
 

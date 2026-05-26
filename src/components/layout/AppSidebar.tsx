@@ -99,7 +99,7 @@ export function AppSidebar() {
           {!collapsed && (
             <>
               <div className="flex flex-col flex-1 min-w-0">
-                <span className="text-xs font-medium text-sidebar-foreground truncate">Micl@Admin</span>
+                <span className="text-xs font-medium text-sidebar-foreground truncate">Vibe@Admin</span>
                 <span className="text-[10px] text-sidebar-foreground/50">Administrator</span>
               </div>
               <button

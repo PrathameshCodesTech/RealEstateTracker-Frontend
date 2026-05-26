@@ -128,18 +128,18 @@ export interface ChecklistTemplate {
 
 // ===== USERS =====
 export const users: User[] = [
-  { id: 'u1', name: 'Rajesh Sharma', role: 'CEO', department: 'Admin', email: 'rajesh@micl.com' },
-  { id: 'u2', name: 'Priya Mehta', role: 'Project Director', department: 'Admin', email: 'priya@micl.com' },
-  { id: 'u3', name: 'Amit Patel', role: 'HOD', department: 'Civil', email: 'amit@micl.com' },
-  { id: 'u4', name: 'Sunita Rao', role: 'HOD', department: 'Electrical', email: 'sunita@micl.com' },
-  { id: 'u5', name: 'Vikram Singh', role: 'HOD', department: 'Plumbing', email: 'vikram@micl.com' },
-  { id: 'u6', name: 'Deepak Kumar', role: 'Site Engineer', department: 'Civil', email: 'deepak@micl.com' },
-  { id: 'u7', name: 'Anita Joshi', role: 'Site Engineer', department: 'Electrical', email: 'anita@micl.com' },
-  { id: 'u8', name: 'Rahul Gupta', role: 'Site Engineer', department: 'Plumbing', email: 'rahul@micl.com' },
-  { id: 'u9', name: 'Suresh Verma', role: 'HOD', department: 'Finishing', email: 'suresh@micl.com' },
-  { id: 'u10', name: 'Pooja Desai', role: 'HOD', department: 'Fire Safety', email: 'pooja@micl.com' },
+  { id: 'u1', name: 'Rajesh Sharma', role: 'CEO', department: 'Admin', email: 'rajesh@vibe.com' },
+  { id: 'u2', name: 'Priya Mehta', role: 'Project Director', department: 'Admin', email: 'priya@vibe.com' },
+  { id: 'u3', name: 'Amit Patel', role: 'HOD', department: 'Civil', email: 'amit@vibe.com' },
+  { id: 'u4', name: 'Sunita Rao', role: 'HOD', department: 'Electrical', email: 'sunita@vibe.com' },
+  { id: 'u5', name: 'Vikram Singh', role: 'HOD', department: 'Plumbing', email: 'vikram@vibe.com' },
+  { id: 'u6', name: 'Deepak Kumar', role: 'Site Engineer', department: 'Civil', email: 'deepak@vibe.com' },
+  { id: 'u7', name: 'Anita Joshi', role: 'Site Engineer', department: 'Electrical', email: 'anita@vibe.com' },
+  { id: 'u8', name: 'Rahul Gupta', role: 'Site Engineer', department: 'Plumbing', email: 'rahul@vibe.com' },
+  { id: 'u9', name: 'Suresh Verma', role: 'HOD', department: 'Finishing', email: 'suresh@vibe.com' },
+  { id: 'u10', name: 'Pooja Desai', role: 'HOD', department: 'Fire Safety', email: 'pooja@vibe.com' },
   { id: 'u11', name: 'Kiran Patil', role: 'Vendor', department: 'MEP', email: 'kiran@vendor.com' },
-  { id: 'u12', name: 'Manoj Tiwari', role: 'Site Engineer', department: 'Finishing', email: 'manoj@micl.com' },
+  { id: 'u12', name: 'Manoj Tiwari', role: 'Site Engineer', department: 'Finishing', email: 'manoj@vibe.com' },
 ];
 
 // ===== PROJECTS =====
@@ -148,19 +148,19 @@ export const projects: Project[] = [
     id: 'p1', name: 'Marine Heights', location: 'Worli, Mumbai', status: 'active',
     startDate: '2024-01-15', endDate: '2026-12-31', progress: 42,
     towers: ['t1', 't2'], totalUnits: 240, reraNumber: 'P51900028372',
-    developer: 'MICL Group', budget: 850000000, spent: 357000000,
+    developer: 'Vibe Group', budget: 850000000, spent: 357000000,
   },
   {
     id: 'p2', name: 'Skyline Residences', location: 'Andheri West, Mumbai', status: 'active',
     startDate: '2024-06-01', endDate: '2027-06-30', progress: 28,
     towers: ['t3', 't4', 't5'], totalUnits: 360, reraNumber: 'P51900031245',
-    developer: 'MICL Group', budget: 1200000000, spent: 336000000,
+    developer: 'Vibe Group', budget: 1200000000, spent: 336000000,
   },
   {
     id: 'p3', name: 'Palm Gardens', location: 'Thane West', status: 'planning',
     startDate: '2025-03-01', endDate: '2028-03-31', progress: 8,
     towers: ['t6'], totalUnits: 120, reraNumber: 'P51900034567',
-    developer: 'MICL Group', budget: 450000000, spent: 36000000,
+    developer: 'Vibe Group', budget: 450000000, spent: 36000000,
   },
 ];
 

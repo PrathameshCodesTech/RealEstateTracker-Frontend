@@ -681,7 +681,7 @@ const Dashboard = () => {
       <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
         <div>
           <h1 className="font-display text-2xl md:text-3xl font-bold">CEO Dashboard</h1>
-          <p className="text-muted-foreground mt-1">Portfolio overview — MICL Group · Click any project to drill down</p>
+          <p className="text-muted-foreground mt-1">Portfolio overview — Vibe Group · Click any project to drill down</p>
         </div>
         <Button variant="outline" size="sm" onClick={handlePortfolioExport}>
           <FileSpreadsheet className="h-4 w-4 mr-2" />Export Portfolio

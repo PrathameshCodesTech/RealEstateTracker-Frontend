@@ -44,7 +44,7 @@ export default function LoginPage() {
             <div className="h-14 w-14 rounded-xl bg-primary flex items-center justify-center mb-4 shadow-lg shadow-primary/30">
               <Building2 className="h-8 w-8 text-primary-foreground" />
             </div>
-            <h1 className="text-2xl font-bold tracking-tight">MICL</h1>
+            <h1 className="text-2xl font-bold tracking-tight">Vibe</h1>
             <p className="text-sm text-muted-foreground mt-1">
               Real Estate &amp; Construction Management
             </p>
@@ -104,7 +104,7 @@ export default function LoginPage() {
           </form>
 
           <p className="text-center text-xs text-muted-foreground mt-6">
-            micl&copy; {new Date().getFullYear()} — Authorized access only
+            vibe&copy; {new Date().getFullYear()} — Authorized access only
           </p>
         </div>
       </div>

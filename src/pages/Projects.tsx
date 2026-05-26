@@ -495,7 +495,7 @@ const Projects = () => {
     const payload: Project = {
       id: editingProject?.id ?? createProjectId(),
       towers: editingProject?.towers ?? [],
-      developer: editingProject?.developer ?? "MICL Group",
+      developer: editingProject?.developer ?? "Vibe Group",
       spent: editingProject?.spent ?? 0,
       name: values.name.trim(),
       location: values.location.trim(),
